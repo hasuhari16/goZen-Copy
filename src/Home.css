@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    
+}
+body{
+    background-color: #F1F5FE; 
+    
+}
+Header{
+    background-color: rgb(37, 99, 235);
+    height: 10ex;
+    width: 100%;
+    color: white;
+    position: sticky;
+    top:0;
+}
+.col-sm-5 p{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 650;
+   
+}
+.row{
+    display: flex;
+    align-items:center;
+    position: sticky;
+    top:0;
+    
+}
+.ip{
+    border-radius: 20cm;
+    border: 0ch;
+    width: 100%;
+    height:20px;
+    padding:1pc;
+    font-size: 1em;
+    border-style: none;
+}
+.MB-btn{
+    background-color: rgb(5, 40, 69);
+    color: white;
+    width: 80%;
+    padding: 5pt;
+    border-radius: 2ex;
+}
+.crd{
+    font-size: 16px;
+    text-align: center;
+    margin-right:50%;
+}
+.LB-cont{
+    height: 40vw;
+    width: 100%;
+    background-color: rgba(208,222,251);
+}
+
+/* ------------------------------ */
+.nav{
+    align-items: center;
+    padding-left: 5%;
+}
+.logo{
+    width:15%;
+    height: 10%;
+   }
+.nav-link{
+    display: flex;
+    color: black;
+    font-size: 1em;
+    align-items: center;
+    justify-content: center;
+    
+}
+.nav-link,li{
+    margin: 5px;
+    padding: 9px;
+}
+.lg-btn{
+    background-color: rgb(5, 40, 69);
+    color: white;
+    width: 200%;
+    padding: 5pt;
+    border-radius: 2ex;
+
+}
+.dropdown-menu{
+    background: rgb(255, 255, 255);  
+    width: 20rem;
+    overflow: hidden;
+   
+}
+.dropdown-item{
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+.dropdown-item:hover{
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(235, 248, 253);
+}
+svg{
+    padding: 0;
+    text-align: none;
+
+}
+/* ---------------------------------- */
+
+
+.Email-heading{
+    text-align: center;
+    padding: 50px;
+    font-size: 50px;
+}
+.Boost-heading{
+    color: rgb(87, 87, 87);
+    font-size: 18px;
+    font-weight:400;
+    text-align: center;
+    margin: -2% 20% 0 20% ;
+    letter-spacing: .025em
+}
+.email-marketing{
+    height: 400px;
+    width: 650px;
+    margin:4% 0 0 25%;
+}
+/* ---------------------------- */
+.reviews{
+    text-align: center;
+    margin-top: 5%;
+}
+.review-cont{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+}
+.review-cont{
+    height: 420px;
+    width: 80%;
+    margin: 0 10%;
+    margin-top: 5%;
+}
+.rating{
+    height: 150px;
+    width: 210px;
+    margin: 20px;
+    padding: 25px 25px 25px 40px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.star{
+    height:60px;
+    width: 100px;
+}
+.brand{
+    height:30px;
+    width: 120px;
+}
+
+
+
+
+
+
+
+
+/* 
+----------------------Footer */
+footer{
+    display: flex;
+    width: 100%;
+    color: white;
+    height: 800px;
+    padding: 10%;
+    padding-top:4%;
+    background-color: #06152D;
+}
+.foot-logo {
+    width: 35%;
+    text-align: left;
+}
+.foot-logo img{
+    height: inherit;
+    width: 8em;
+}
+.foot-cont{
+    width: 30%;
+    margin-top: 5px;
+    border-radius: 20px;
+    
+}
+.foot-cont h3{
+    text-align: center;
+    margin-right: 0%;
+}
+.foot-cont li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 15px;
+    padding-top: 0px;
+    text-align: left;
+}
+.foot-cont a{
+    text-decoration: none;
+    color: #FFFFFF99;
+   
+    
+}
+.foot-cont a:hover{
+    color: white;
+    transition: .1s;
+}
+.social-media a{
+    
+    color: rgb(228, 228, 228);
+    padding: 10px;
+    font-size: larger;
+    opacity: .8;
+}
+.social-media a:hover{
+    color: rgb(255, 255, 255);
+    transition: .3s;
+    opacity: 1;
+}
+.sol-list{
+    margin-left:-7%;
+}
+.q-list{
+    margin-left:-3%;
+}
+.abt-list{
+    margin-left:10%;
+}
